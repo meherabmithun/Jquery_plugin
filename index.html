@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- fonts -->
+    <!-- plugin css links -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <title>Jquery Plugin</title>
+  </head>
+  <body>
+    <!-- counter up start -->
+    <section class="common_padding counter_up">
+      <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h1 class="h1">Counter Up</h1>
+        </div>
+        <div class="col-md-4">
+          <h4>Like</h4>
+          <span class="counter">1,234,56700</span>
+        </div>
+        <div class="col-md-4">
+          <h4>Price</h4>
+          <span class="wh pr-0">$</span><span class="counter pl-0">1.99</span>
+        </div>
+        <div class="col-md-4">
+          <h4>Comment</h4>
+          <span class="counter">12345</span>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- counter up end -->
+    <!-- curve text start -->
+    <section class="common_padding curve_text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="h1">Curve Text</h1>
+          </div>
+          <div class="col-md-12">
+           <div id="text1">Hi,How are you everybody?I'm fine.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- curve text end -->
+    <!-- wow start -->
+    <section class="common_padding wow">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="h1">WOW</h1>
+          </div>
+          <div class="col-md-4">
+            <div class="wow slideInDown" data-wow-delay="0.1s">
+               <img src="images/butterfly.jpg" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="wow pulse" data-wow-delay="0.1s" data-wow-iteration="infinite" data-wow-duration="1500ms">
+               <img src="images/rose.jpg" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="wow slideInDown" data-wow-delay="0.1s">
+               <img src="images/sunflower.jpg" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-4 mt-3">
+            <div class="wow lightSpeedIn">
+               <h3>Butterfly</h3>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3">
+            <div class="wow lightSpeedIn">
+               <h3>Rose</h3>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3">
+            <div class="wow lightSpeedIn">
+               <h3>Sunflower</h3>
+            </div>
+          </div>
+          <div class="col-md-6 mt-3">
+            <div class="wow slideInLeft">
+               <img src="images/whiteleaves.jpg" class="img-fluid" data-wow-delay="0.1s">
+            </div>
+          </div>
+          <div class="col-md-6 mt-3">
+            <div class="wow slideInRight" data-wow-delay="0.1s">
+               <img src="images/grass.jpg" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- wow end -->
+    <!-- owl carousel start -->
+    <section class="common_padding owl_carousel">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="h1">Owl Carousel</h1>
+          </div>
+            <div class="owl-carousel">
+            <div><img src="images/white_flower.jpg" class="img-fluid"></div>
+            <div><img src="images/lily.jpg" class="img-fluid"></div>
+            <div><img src="images/parrot.jpg" class="img-fluid"></div>
+            <div><img src="images/white_flower.jpg" class="img-fluid"></div>
+            <div><img src="images/parrot.jpg" class="img-fluid"></div>
+            <div><img src="images/lily.jpg" class="img-fluid"></div>
+            <div><img src="images/white_flower.jpg" class="img-fluid"></div>
+            <div><img src="images/lily.jpg" class="img-fluid"></div>
+          </div>
+          <div class="col-md-12 text-center">
+            <button type="btn" class="btn-success btn-lg play">Play</button>
+            <button type="btn" class="btn-danger btn-lg stop">Stop</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- owl carousel end -->
+    <!-- jQuery links -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <!-- plugin links -->
+     <!-- counter start -->
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- counter end -->
+    <!-- curve text start -->
+    <script src="js/jquery.typorize.js"></script>
+    <script src="js/jquery.curvedtext.js"></script>
+    <!-- curve text end -->
+    <!-- wow start -->
+    <script src="js/wow.min.js"></script>
+    <!-- wow end -->
+    <!-- owl carousel start -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- owl carousel end -->
+
+    <script src="js/script.js"></script>
+    <script>
+      $(document).ready(function(){
+
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+            // wow start//
+            new WOW().init();
+        });
+    </script>
+  </body>
+</html>

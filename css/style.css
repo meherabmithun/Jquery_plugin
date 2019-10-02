@@ -1,0 +1,30 @@
+/*counter start*/
+.common_padding{
+    padding: 30px 0;
+}
+.counter_up{
+	background-color: #E7EAED;
+}
+.h1{
+	margin-bottom: 40px;
+}
+.counter,.wh{
+    color: black;
+    padding: 4px 35px;
+}
+/*counter end*/
+/*curve text start*/
+#text1{
+    margin: 30px 0;
+    color: #000000;
+    background-color: #DEE1E6;
+}
+/*curve text end*/
+/*wow start*/
+.wow{
+	background-color: #E7EAED;
+}
+/*wow end*/
+.h6{
+
+}
